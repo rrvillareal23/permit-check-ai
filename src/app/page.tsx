@@ -14,7 +14,6 @@ export default function Home() {
     city: string;
     township: string;
     county: string;
-    permitWebsite: string;
     permitInfo: string;
   } | null>(null);
   const [loading, setLoading] = useState(false);
@@ -82,7 +81,6 @@ export default function Home() {
             city,
             township,
             county,
-            permitWebsite: "",
             permitInfo: "",
           }),
           permitInfo: result,
@@ -207,13 +205,6 @@ export default function Home() {
             <h2 className="font-semibold mt-3">Permit Information</h2>
             <p>
               <strong>OpenAI Response:</strong>{" "}
-              <a
-                href={permitInfo.permitWebsite}
-                target="_blank"
-                className="text-blue-500"
-              >
-                {permitInfo.permitWebsite}
-              </a>
             </p>
             <p>{permitInfo.permitInfo}</p>
           </div>

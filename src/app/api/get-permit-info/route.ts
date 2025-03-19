@@ -26,7 +26,7 @@ export async function POST(req: Request) {
             {
               role: "system",
               content:
-                "You are an AI that determines whether an electrical permit is needed for EV chargers.",
+                "You are an AI that determines whether an electrical permit is needed for EV chargers. Please give the price of the permit on city website if available",
             },
             {
               role: "user",
