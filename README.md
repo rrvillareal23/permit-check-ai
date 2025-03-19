@@ -1,4 +1,4 @@
-# EV Permit Lookup API
+# EV Permit-Check-Ai
 
 This Next.js project provides an API to fetch location details (city, township, county) from a given address using Google Maps API and retrieves permit information for EV charger installations via OpenAI API.
 
@@ -18,8 +18,8 @@ This Next.js project provides an API to fetch location details (city, township, 
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/ev-permit-lookup.git
-   cd ev-permit-lookup
+   git clone https://github.com/your-repo/permit-check-ai.git
+   cd permit-check-ai
    ```
 2. Install dependencies:
    ```sh
